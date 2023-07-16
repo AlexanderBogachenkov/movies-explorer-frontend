@@ -1,0 +1,101 @@
+.header-movies {
+    display: flex;
+    padding: 6px 14px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    border: none;
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+
+
+}
+
+.header-movies:hover {
+    /* opacity: 0.8; */
+    cursor: pointer;
+}
+
+.header-movies__logo {
+    width: 38px;
+    height: 38px;
+}
+
+.header-movies__logo:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.showFilm-select {
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 18px;
+    color: #000000;
+    text-decoration: none;
+}
+
+.showFilm {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+    color: #000000;
+    text-decoration: none;
+}
+
+.showSavedFilm {
+    margin-left: 20px;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+    color: #000000;
+    text-decoration: none;
+}
+
+.showSavedFilm-select {
+    margin-left: 20px;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 18px;
+    color: #000000;
+    text-decoration: none;
+}
+
+
+.showFilm:hover {
+    opacity: 0.8;
+}
+
+.showSavedFilm:hover {
+    opacity: 0.8;
+}
+
+.header__films_menu {
+    /* visibility: hidden; */
+    visibility: visible;
+}
+
+.header__films_menu_account {
+    /* visibility: hidden; */
+    visibility: visible;
+}
+
+@media screen and (max-width: 780px) {
+    .header-movies {
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+
+    .header__films_menu {
+        visibility: hidden;
+        /* visibility: visible; */
+    }
+
+    .header__films_menu_account {
+        visibility: hidden;
+        /* visibility: visible; */
+    }
+}
