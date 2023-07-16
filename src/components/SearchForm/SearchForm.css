@@ -123,7 +123,7 @@
 
 @media screen and (max-width: 640px) {
     .search {
-        padding: 80px 10px 44px;
+        /* padding: 80px 10px 44px; */
     }
 
     .search__container {
@@ -132,9 +132,9 @@
     }
 
     .search-form {
-        height: 72px;
-        padding-top: 0;
-        padding-right: 0;
+        /* height: 72px; */
+        /* padding-top: 0;
+        padding-right: 0; */
     }
 
     .checkbox {
@@ -147,16 +147,16 @@
 
     .search-form__input {
         background-image: none;
-        font-size: 14px;
+        font-size: 11px;
     }
 
     .search-form__input::placeholder {
-        top: 25px;
-        left: 19px;
+        /* top: 25px; */
+        /* left: 19px; */
     }
 
     .search-form__button {
-        margin-top: 19px;
-        margin-right: 19px;
+        /* margin-top: 19px; */
+        /* margin-right: 19px; */
     }
 }

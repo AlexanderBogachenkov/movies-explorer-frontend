@@ -144,12 +144,11 @@
     .login__wrapper {
         width: 100%;
         justify-content: center;
+        align-items: center;
     }
 
     .login__logo {
         margin-bottom: 50px;
-        margin-right: auto;
-        margin-left: auto;
     }
 
     .login__title {
